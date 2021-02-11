@@ -9,8 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyHeroesMarvel">
+<<<<<<< HEAD
         <activity android:name=".MainActivity"/>
         <activity android:name=".SplashScreen">
+=======
+        <activity android:name=".MainActivity">
+>>>>>>> e5605b0b1c5a0ae4cd3231522b5124a32ed2c708
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

@@ -1,6 +1,10 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
+<<<<<<< HEAD
     <style name="Theme.MyHeroesMarvel" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+=======
+    <style name="Theme.MyHeroesMarvel" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+>>>>>>> e5605b0b1c5a0ae4cd3231522b5124a32ed2c708
         <!-- Primary brand color. -->
         <item name="colorPrimary">@color/purple_500</item>
         <item name="colorPrimaryVariant">@color/purple_700</item>
