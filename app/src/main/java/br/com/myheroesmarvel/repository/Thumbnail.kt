@@ -1,4 +1,4 @@
-package br.com.myheroesmarvel.Repository
+package br.com.myheroesmarvel.repository
 
 import com.google.gson.annotations.SerializedName
 

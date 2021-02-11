@@ -1,4 +1,4 @@
-package br.com.myheroesmarvel.Repository
+package br.com.myheroesmarvel.repository
 
 import com.google.gson.annotations.SerializedName
 
@@ -10,5 +10,6 @@ data class Characters (
     @SerializedName("attributionText") val attributionText : String,
     @SerializedName("attributionHTML") val attributionHTML : String,
     @SerializedName("etag") val etag : String,
+    @SerializedName("item") val items : List<CharactersResults>,
     @SerializedName("data") val data : CharactersData
 )

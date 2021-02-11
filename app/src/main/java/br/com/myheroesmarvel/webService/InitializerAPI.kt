@@ -1,4 +1,4 @@
-package br.com.myheroesmarvel.WebService
+package br.com.myheroesmarvel.webService
 
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
