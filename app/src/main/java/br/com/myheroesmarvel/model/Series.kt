@@ -1,12 +1,11 @@
-package br.com.myheroesmarvel.repository
+package br.com.myheroesmarvel.model
 
 import com.google.gson.annotations.SerializedName
 
-data class Stories(
+data class Series(
 
     @SerializedName("available") val available : Int,
     @SerializedName("collectionURI") val collectionURI : String,
-   // @SerializedName("items") val items : List<Items>,
+    @SerializedName("items") val items : List<CharactersResults>,
     @SerializedName("returned") val returned : Int
-
 )

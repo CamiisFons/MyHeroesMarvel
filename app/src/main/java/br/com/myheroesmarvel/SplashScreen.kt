@@ -23,7 +23,7 @@ class SplashScreen : AppCompatActivity() {
                 alpha(0f)
                 showHeroActivity()
             }
-        },3000)
+        },4000)
     }
 
     private fun showHeroActivity(){

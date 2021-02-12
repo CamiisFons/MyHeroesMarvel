@@ -4,7 +4,7 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import br.com.myheroesmarvel.databinding.CharactersItemBinding
-import br.com.myheroesmarvel.repository.CharactersResults
+import br.com.myheroesmarvel.model.CharactersResults
 import com.bumptech.glide.Glide
 
 class CharactersAdapter(val charactersList:MutableList<CharactersResults>): RecyclerView.Adapter<CharactersAdapter.CharactersViewHolder>() {

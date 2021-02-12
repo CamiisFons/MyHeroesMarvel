@@ -1,8 +1,8 @@
-package br.com.myheroesmarvel.repository
+package br.com.myheroesmarvel.model
 
 import com.google.gson.annotations.SerializedName
 
-data class Series(
+data class Comics(
 
     @SerializedName("available") val available : Int,
     @SerializedName("collectionURI") val collectionURI : String,
