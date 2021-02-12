@@ -4,12 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/red">
+    android:background="@color/red"
+    android:id="@+id/backgroundSplash">
 
     <pl.droidsonroids.gif.GifImageView
         android:id="@+id/marvel"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:scaleType="centerCrop"
-        android:src="@drawable/avengers_giphy"/>
+        android:src="@drawable/avengers_giphy"
+        tools:visibility="gone"/>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
