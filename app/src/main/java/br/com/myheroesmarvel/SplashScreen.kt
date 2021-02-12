@@ -5,6 +5,7 @@ import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
 import androidx.appcompat.app.AppCompatActivity
+import androidx.constraintlayout.widget.ConstraintLayout
 import pl.droidsonroids.gif.GifImageView
 
 class SplashScreen : AppCompatActivity() {
@@ -21,9 +22,12 @@ class SplashScreen : AppCompatActivity() {
             gifSplash.animate().apply {
                 duration = 3000
                 alpha(0f)
-                showHeroActivity()
             }
-        },4000)
+        },5000)
+
+        Handler(Looper.getMainLooper()).postDelayed({
+            showHeroActivity()
+        },7000)
     }
 
     private fun showHeroActivity(){
