@@ -20,14 +20,14 @@ class SplashScreen : AppCompatActivity() {
         val gifSplash = findViewById<GifImageView>(R.id.marvel)
         Handler(Looper.getMainLooper()).postDelayed({
             gifSplash.animate().apply {
-                duration = 3000
+                duration = 2000
                 alpha(0f)
             }
-        },5000)
+        },3000)
 
         Handler(Looper.getMainLooper()).postDelayed({
             showHeroActivity()
-        },7000)
+        },6000)
     }
 
     private fun showHeroActivity(){
